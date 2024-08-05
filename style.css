@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('images/background1.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the background image so it doesn't scroll */
+    margin: 0;
+    padding: 0;
+    color:#ddd;
+    line-height: 1.6;
+}
+
+a {
+    color: #0073e6; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: purple;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    border: 1px solid #ddd;
+    margin: 10px 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+
+.maasai-mara img {
+    border-radius: 10%;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Aadjust size as needed */
+
+}
+.diani-sea-resort img{
+    border-radius: 10px;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+.Mount_Kenya img{
+    border-radius: 10px;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+.define img{
+    border-radius: 10px;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+.reflecting img{
+    border-radius: 10px;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+.start-small img{
+    border-radius: 10px;
+    width: 350px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .social-media a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    profile-picture img {
+        width: 100px; /* Smaller size for smaller screens */
+        height: 80px;
+    }
+}
